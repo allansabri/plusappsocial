@@ -1,0 +1,32 @@
+const Colors = {
+  dark: {
+    background: '#0A0A0F',
+    surface: '#12121A',
+    card: '#161620',
+    cardElevated: '#1C1C28',
+    primary: '#2563EB',
+    primaryDim: '#1D4FBF',
+    primaryLight: 'rgba(37, 99, 235, 0.12)',
+    accent: '#FF4757',
+    accentLight: 'rgba(255, 71, 87, 0.12)',
+    blue: '#3B82F6',
+    blueLight: 'rgba(59, 130, 246, 0.12)',
+    gold: '#F5C518',
+    goldDim: '#D4A810',
+    goldLight: 'rgba(245, 197, 24, 0.15)',
+    text: '#F2F2F7',
+    textSecondary: '#8E8E93',
+    textTertiary: '#5A5A62',
+    success: '#30D158',
+    successLight: 'rgba(48, 209, 88, 0.12)',
+    warning: '#FF9F0A',
+    danger: '#FF453A',
+    border: '#252530',
+    borderLight: '#1E1E28',
+    tabBar: '#0C0C12',
+    overlay: 'rgba(0, 0, 0, 0.7)',
+    skeleton: '#1E1E28',
+  },
+};
+
+export default Colors;
