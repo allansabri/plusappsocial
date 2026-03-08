@@ -1,0 +1,16 @@
+import React from 'react';
+import { Stack } from 'expo-router';
+import Colors from '@/constants/colors';
+
+export default function PublishLayout() {
+  return (
+    <Stack
+      screenOptions={{
+        headerShown: false,
+        contentStyle: { backgroundColor: Colors.dark.background },
+      }}
+    >
+      <Stack.Screen name="index" />
+    </Stack>
+  );
+}
